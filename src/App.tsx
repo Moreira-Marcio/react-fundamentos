@@ -1,17 +1,10 @@
+import Cabecalho from "./Cabecalho";
+
 export default function App() {
   return (
     <>
-      <header>
-        <h1>Ola React! ✌️</h1>
-        <hr />
-        <nav>
-          <a href=""></a>
-          <a href=""></a>
-          <a href=""></a>
-        </nav>
-      </header>
-      {/* comentarios no meio od jsx é normal ficar entre {} */}
-      {/* ao usar outros elementos html no jsx é importante envolver tudo em  <></> (fragmento react) */}
+      <Cabecalho />
+
       <main>
         <section>
           <h2>Seja bem vindo aos fundamentos de react!!</h2>
