@@ -12,3 +12,10 @@
 - instalação do react developer tools
 
 - referencias sobre componentes e jsx: https://react.dev/reference/react/Component
+
+## 02_criando-e-organizando-componentes
+
+- separação de trechos do App em novos componentes
+- Exportação e importação dos componentes
+- Uso de assets e importação de imagem
+- Organização dos componentes em uma pasta dedicada
