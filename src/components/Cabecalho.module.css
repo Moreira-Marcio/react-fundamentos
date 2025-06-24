@@ -2,6 +2,17 @@
   background-color: #20232a;
   color: #61dafb;
   padding: 1rem;
+
+  a {
+    color: orange;
+    text-decoration: none;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid;
+    margin: 0, 4rem 0;
+  }
 }
 
 .titulo {
@@ -17,3 +28,9 @@
   margin-right: 0.2rem;
   width: 42px;
 }
+
+/* classe/seletor descencente */
+/* .topoSite a { */
+/* text-decoration: none; */
+/* color: orange; */
+/* } */
