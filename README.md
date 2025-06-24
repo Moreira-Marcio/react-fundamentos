@@ -34,3 +34,7 @@
 - CSS inline aplicando via style e escrevendo CSS IN JS (objeto com proipriedade CSS)
 
 - CSS inline criando um objeto do tipo CSSProprieties e passando-o para style do componente
+
+## 05_modulos-css
+
+- Módulos CSS (CSS modules) são maneiras de escrever o CSS em arquivos separados de extensão. Há um **acoplamento** entre módulo e seu componente, permitindo um escopo bem definido sobre os estilos
