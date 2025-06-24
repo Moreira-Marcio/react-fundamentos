@@ -19,3 +19,11 @@
 - Exportação e importação dos componentes
 - Uso de assets e importação de imagem
 - Organização dos componentes em uma pasta dedicada
+
+## 03_componentes-filhos-ou-internos
+
+- Criação de um componente filho (menu)e importação/uso no pai(cabecalho)
+
+- Criaçao de um componente filho (artigo) e importação/uso no pai (conteudo)
+
+- Instalação da extenção ES7+ React
