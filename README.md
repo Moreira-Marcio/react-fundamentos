@@ -27,3 +27,10 @@
 - Criaçao de um componente filho (artigo) e importação/uso no pai (conteudo)
 
 - Instalação da extenção ES7+ React
+
+## 04_estilos
+
+- CSS global usando seletores tradicionais
+- CSS inline aplicando via style e escrevendo CSS IN JS (objeto com proipriedade CSS)
+
+- CSS inline criando um objeto do tipo CSSProprieties e passando-o para style do componente
