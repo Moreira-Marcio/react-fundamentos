@@ -5,7 +5,7 @@ import AvisoImportante from "./AvisoImportante/AvisoImportante";
 
 export default function Conteudo() {
   return (
-    <main>
+    <main className={estilos.conteudo}>
       <section
         className={`${estilos.principal} ${estilos.arredondada} ${estilos.sombra}`}
       >
