@@ -1,4 +1,5 @@
 import Artigo from "./Artigo";
+import DicaDoDia from "./DicaDoDia/DicaDoDia";
 
 export default function Conteudo() {
   return (
@@ -10,6 +11,8 @@ export default function Conteudo() {
         <Artigo />
         <Artigo />
       </section>
+
+      <DicaDoDia />
     </main>
   );
 }

@@ -38,3 +38,15 @@
 ## 05_modulos-css
 
 - Módulos CSS (CSS modules) são maneiras de escrever o CSS em arquivos separados de extensão. Há um **acoplamento** entre módulo e seu componente, permitindo um escopo bem definido sobre os estilos
+
+-
+
+## instalação
+
+- npm install styled-components
+- npm install --save-dev @types/styled-components
+- extensão vc code styled-components
+
+## 06_styled-components
+
+- Styled components é uma biblioteca (lib) muito usada com projetos react que permite escrever estilos CSS. Os estilos ficam aplicados ao componente en que foram decrarados
