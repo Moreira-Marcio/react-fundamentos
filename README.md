@@ -47,6 +47,8 @@
 - npm install --save-dev @types/styled-components
 - extensão vc code styled-components
 
+Ao trabalhar com Styled Components vocÊ pode criar regras com qualquer seletor e usar lógica JavaScript dentro do template stryng
+
 ## 06_styled-components
 
 - Styled components é uma biblioteca (lib) muito usada com projetos react que permite escrever estilos CSS. Os estilos ficam aplicados ao componente en que foram decrarados
