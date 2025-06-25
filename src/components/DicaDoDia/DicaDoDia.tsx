@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
+let tema: boolean = false;
+
 const StyledDicaDoDia = styled.section`
-  background-color: #e8f5e9;
+  background-color: ${tema ? " #e8f5e9" : "lightblue"};
   border-left: 5px solid darkgreen;
   padding: 1rem;
   margin-top: 2rem;
