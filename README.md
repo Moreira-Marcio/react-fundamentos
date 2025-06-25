@@ -52,3 +52,9 @@ Ao trabalhar com Styled Components vocÊ pode criar regras com qualquer seletor 
 ## 06_styled-components
 
 - Styled components é uma biblioteca (lib) muito usada com projetos react que permite escrever estilos CSS. Os estilos ficam aplicados ao componente en que foram decrarados
+
+## 07-Tailwind
+
+- Tailwind CSS é um framework CSS utilitário, que permite construir interfaces web diretamente na marcação HTML através de classes pré-definidas, sem a necessidade de escrever CSS personalizado. Ele oferece uma abordagem "utility-first", onde você aplica classes com funções específicas para estilizar seus elementos.
+
+- Em suma, o Tailwind CSS é uma ferramenta poderosa que redefine a maneira como escrevemos CSS. Ele oferece uma abordagem altamente eficiente e flexível para o desenvolvimento front-end, priorizando a velocidade, o controle e a otimização, tornando-o uma escolha popular para muitos desenvolvedores modernos.
