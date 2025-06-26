@@ -14,9 +14,17 @@ export default function Conteudo() {
         <Saudacao nome="Marcio" classe="bg-emerald-100" />
         <Saudacao classe="bg-red-100" />
         <p>Este é um exemplo de aplicação React.</p>
-        <Artigo />
-        <Artigo />
-        <Artigo />
+        <Artigo
+          titulo="Front-End"
+          texto="texto qualquer sobre lfront"
+          numero={1}
+        />
+        <Artigo
+          titulo="Back-end"
+          texto="texto qualquer sobre back"
+          numero={2}
+        />
+        <Artigo titulo="Mobile" texto="texto qualque sobre mobile" numero={3} />
       </section>
 
       <DicaDoDia />
