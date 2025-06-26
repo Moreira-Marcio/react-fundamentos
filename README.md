@@ -58,3 +58,11 @@ Ao trabalhar com Styled Components vocÊ pode criar regras com qualquer seletor 
 - Tailwind CSS é um framework CSS utilitário, que permite construir interfaces web diretamente na marcação HTML através de classes pré-definidas, sem a necessidade de escrever CSS personalizado. Ele oferece uma abordagem "utility-first", onde você aplica classes com funções específicas para estilizar seus elementos.
 
 - Em suma, o Tailwind CSS é uma ferramenta poderosa que redefine a maneira como escrevemos CSS. Ele oferece uma abordagem altamente eficiente e flexível para o desenvolvimento front-end, priorizando a velocidade, o controle e a otimização, tornando-o uma escolha popular para muitos desenvolvedores modernos.
+
+## 08_props
+
+- props (abreviação de properties/propriedades) são poarametros que um componente pode receber
+
+- elas funcionam como argumentos de uma função, que podem receber dados de um componente pai para um componente filho.
+
+- props basicamente são uma forma de comunicação entre componentes
