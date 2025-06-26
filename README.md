@@ -66,3 +66,10 @@ Ao trabalhar com Styled Components vocÊ pode criar regras com qualquer seletor 
 - elas funcionam como argumentos de uma função, que podem receber dados de um componente pai para um componente filho.
 
 - props basicamente são uma forma de comunicação entre componentes
+
+- criação do props e definição de tipos para a props
+- desestruturação de props
+- manipulação de props opcoionais
+- renderização condicional
+
+## 09_props-com-dados-dinamicos
