@@ -9,9 +9,9 @@ export default function Artigo({ dados }: ArtigoProps) {
   const { titulo, preco, categoria } = dados;
   return (
     <article className={estilos.artigo}>
-      <h3>{titulo} </h3>
-      <p>{categoria}</p>
-      <p>{preco}</p>
+      <h3>Titulo: {titulo} </h3>
+      <p>Categoria: {categoria}</p>
+      <p>Preço: {preco}</p>
     </article>
   );
 }
