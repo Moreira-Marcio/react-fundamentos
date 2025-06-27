@@ -50,7 +50,7 @@ export default function Conteudo() {
             </p>
           </>
         )}
-        <ListaCursos />
+        <ListaCursos categoria={categoriaAtiva} />
       </section>
 
       <DicaDoDia />
