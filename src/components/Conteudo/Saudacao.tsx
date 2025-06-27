@@ -4,14 +4,16 @@ type SaudacaoProps = {
 };
 
 export default function Saudacao({
-  nome = "visitante", //caso nome não seja informado (opcional ), visitante sera usado
+  nome = "visitante",
   classe,
 }: SaudacaoProps) {
+  function exemploEvento() {
+    alert("evento chamada de callback externa");
+  }
+
   return (
-    <>
-      <p className={`my-2 ${classe}`}>
-        Bem-vindo(a) <b>{nome}</b>
-      </p>
-    </>
+    <p className={`my-2 ${classe}`}>
+      Bem-vindo(a) <b onClick={exemploEvento}>{nome}</b>
+    </p>
   );
 }
