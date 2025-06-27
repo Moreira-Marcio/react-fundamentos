@@ -4,9 +4,16 @@
     justify-content: flex-start;
     flex-wrap: wrap;
     gap: 10px;
+    h3 {
+      text-decoration: solid 4px;
+    }
 
     article {
-      width: 48%;
+      width: 40%;
+      border-left: 6px solid rgb(121, 120, 120);
+      border-bottom: 5px solid rgb(121, 117, 117);
+      border-radius: 3px;
+      text-align: center;
     }
   }
 }
