@@ -98,3 +98,5 @@ Ao trabalhar com Styled Components vocÊ pode criar regras com qualquer seletor 
   - seleção de itens
 
 - o uso de states permite ao reactatualizar a interface automaticamente sempre que os dados mudarem, sem a necessidade de manipularem os dom manualmemnte
+
+## 12_filtrando-dados-usando-props-eventos-e-states

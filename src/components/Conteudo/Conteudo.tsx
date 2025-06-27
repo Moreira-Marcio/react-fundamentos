@@ -3,10 +3,15 @@ import DicaDoDia from "./DicaDoDia/DicaDoDia";
 import estilos from "./Conteudo.module.css";
 import AvisoImportante from "./AvisoImportante/AvisoImportante";
 import Saudacao from "./Saudacao";
-//import cursos from "../../data/cursos";
+import cursos from "../../data/cursos";
 import ListaCursos from "./ListaCursos/ListaCursos";
 
 export default function Conteudo() {
+  const categorias = Array.from(
+    new Set(cursos.map((curso) => curso.categoria))
+  );
+  console.log(categorias);
+
   return (
     <main className={estilos.conteudo}>
       <section
