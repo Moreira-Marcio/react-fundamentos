@@ -6,6 +6,8 @@
     gap: 10px;
     h3 {
       text-decoration: solid 4px;
+      font-weight: bold;
+      text-shadow: greenyellow;
     }
 
     article {
