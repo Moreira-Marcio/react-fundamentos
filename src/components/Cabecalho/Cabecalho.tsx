@@ -9,11 +9,14 @@ import estilos from "./Cabecalho.module.css";
 export default function Cabecalho() {
   // aqui definimos uma chamada de uma função especial do react: useState. Esta e outras funções iniciadas com o prefixo 'use' são conhecidos como react hooks
   //no cado do useState, usando desestruturação,criamos uma constate que representa o valor do state (titulo) e uma função responsavel por atualizar o useState(setTitulo)
-  const [titulo, setTitulo] = useState();
+  const [titulo, setTitulo] = useState("Ola React!!");
+  const alternarTitulo = () => {
+    setTitulo("Experimentanto States!");
+  };
 
   return (
     <header className={estilos.topoSite}>
-      <h1 onClick={() => alert("ola!!")} className={estilos.titulo}>
+      <h1 onClick={alternarTitulo} className={estilos.titulo}>
         <img className={estilos.logo} src={logo} alt="" /> {titulo}✌️
       </h1>
       <hr />
