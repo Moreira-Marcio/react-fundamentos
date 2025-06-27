@@ -9,7 +9,7 @@ import { useState } from "react";
 
 export default function Conteudo() {
   //definindo o state para categoria ativa/selecionada podendo ser null(valor padrão inicialda)
-  const [categoriaAtiva, setCategoriaAtica] = useState<null | string>(null);
+  const [categoriaAtiva, setCategoriaAtiva] = useState<null | string>(null);
 
   const categorias = Array.from(
     new Set(cursos.map((curso) => curso.categoria))
@@ -28,7 +28,7 @@ export default function Conteudo() {
         {categorias.map((categoria) => {
           return (
             <button
-              onClick={() => setCategoriaAtica(categoria)}
+              onClick={() => setCategoriaAtiva(categoria)}
               className="rounded py-1 px-2 mr-1 my-1 bg-amber-200 hover:bg-green-300"
             >
               {categoria}
@@ -37,9 +37,18 @@ export default function Conteudo() {
         })}
 
         {categoriaAtiva && (
-          <p>
-            Categoria selecionada: <b>{categoriaAtiva}</b>
-          </p>
+          <>
+            <button
+              onClick={() => setCategoriaAtiva(null)}
+              className="px-2 py-1 border rounded bg-red-300"
+            >
+              limpar
+            </button>
+
+            <p>
+              Categoria selecionada: <b>{categoriaAtiva}</b>
+            </p>
+          </>
         )}
         <ListaCursos />
       </section>
