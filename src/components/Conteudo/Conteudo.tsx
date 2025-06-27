@@ -10,7 +10,6 @@ export default function Conteudo() {
   const categorias = Array.from(
     new Set(cursos.map((curso) => curso.categoria))
   );
-  console.log(categorias);
 
   return (
     <main className={estilos.conteudo}>
@@ -21,6 +20,14 @@ export default function Conteudo() {
         <Saudacao nome="Marcio" classe="bg-emerald-100" />
         <Saudacao classe="bg-red-100" />
         <p>Este é um exemplo de aplicação React.</p>
+
+        {categorias.map((categoria) => {
+          return (
+            <button className="rounded py-1 px-2 mr-1 my-1 bg-amber-200 hover:bg-green-300">
+              {categoria}
+            </button>
+          );
+        })}
         {/* {faça a logica necessaria para apresentar o componente artigo e passar para ele os dados de cada curso proveniente de cursos} */}
         <ListaCursos />
       </section>
