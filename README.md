@@ -77,3 +77,8 @@ Ao trabalhar com Styled Components vocÊ pode criar regras com qualquer seletor 
 - ultilização de props para enviar dados dinamicos para o componente
 - configuração de array de dados com definição de tipo
 - refaturação de componentes criando o listacrusos com map de artigo dentro
+
+## 10_manipulando-eventos
+
+- No react nos declaramos explicitamente que o componente faça atravez dos eventos de props de eventos
+- estas props aceitam uma callback na sintaxe de arrow function ou entao uma chamada (apenas o nome, sem parenteses) de uma função externa
