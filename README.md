@@ -82,3 +82,19 @@ Ao trabalhar com Styled Components vocÊ pode criar regras com qualquer seletor 
 
 - No react nos declaramos explicitamente que o componente faça atravez dos eventos de props de eventos
 - estas props aceitam uma callback na sintaxe de arrow function ou entao uma chamada (apenas o nome, sem parenteses) de uma função externa
+
+## 11_gerenciamento-de-states
+
+- State (ou estado) e ua funcionalidade especial de um componente que representa informações que podem mudar ao longo do tempo, n,normalmente, afetam o que é exibido na interface
+
+- exemplos:
+
+  - contador de likes
+  - carrinho de compcompras
+  - caotura de dados de formulario
+  - filtros
+  - timers
+  - alternancia de temas/cores
+  - seleção de itens
+
+- o uso de states permite ao reactatualizar a interface automaticamente sempre que os dados mudarem, sem a necessidade de manipularem os dom manualmemnte
