@@ -11,7 +11,9 @@ export default function Cabecalho() {
   //no cado do useState, usando desestruturação,criamos uma constate que representa o valor do state (titulo) e uma função responsavel por atualizar o useState(setTitulo)
   const [titulo, setTitulo] = useState("Ola React!!");
   const alternarTitulo = () => {
-    setTitulo("Experimentanto States!");
+    setTitulo((texto) => {
+      return texto === "Ola React!" ? "Experimentando State!" : "Ola React!";
+    });
   };
 
   return (
