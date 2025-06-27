@@ -5,8 +5,12 @@ import AvisoImportante from "./AvisoImportante/AvisoImportante";
 import Saudacao from "./Saudacao";
 import cursos from "../../data/cursos";
 import ListaCursos from "./ListaCursos/ListaCursos";
+import { useState } from "react";
 
 export default function Conteudo() {
+  //definindo o state para categoria ativa/selecionada podendo ser null(valor padrão inicialda)
+  const [categoriaAtiva, setCategoriaAtica] = useState<null | string>(null);
+
   const categorias = Array.from(
     new Set(cursos.map((curso) => curso.categoria))
   );
@@ -23,12 +27,20 @@ export default function Conteudo() {
 
         {categorias.map((categoria) => {
           return (
-            <button className="rounded py-1 px-2 mr-1 my-1 bg-amber-200 hover:bg-green-300">
+            <button
+              onClick={() => setCategoriaAtica(categoria)}
+              className="rounded py-1 px-2 mr-1 my-1 bg-amber-200 hover:bg-green-300"
+            >
               {categoria}
             </button>
           );
         })}
-        {/* {faça a logica necessaria para apresentar o componente artigo e passar para ele os dados de cada curso proveniente de cursos} */}
+
+        {categoriaAtiva && (
+          <p>
+            Categoria selecionada: <b>{categoriaAtiva}</b>
+          </p>
+        )}
         <ListaCursos />
       </section>
 
