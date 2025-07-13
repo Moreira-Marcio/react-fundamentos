@@ -13,7 +13,7 @@ export default function Artigo({ dados }: ArtigoProps) {
 
   const alternarArtigo = () => {
     setDestaque((destaque) => {
-      return destaque === "whiteSmoke" ? "yellow" : "whiteSmoke";
+      return destaque === "whiteSmoke" ? "yellowgreen" : "whiteSmoke";
     });
   };
   return (
